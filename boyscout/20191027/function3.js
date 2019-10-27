@@ -1,21 +1,30 @@
-num1 = 3;
-num2 = 6;
-num3 = 7;
 
-(num1 + num2) == num3
+console.log("Before myFunc "+a);
+myFunc(a);
 
 
+var a = 5;
+
+console.log("After myFunc");
+console.log(a);
+function myFunc(a,b,c){
+    console.log("In myFunc");
+    console.log(a1);
+}
+
+
+/*
 
 function getAvg(score1,score2,score3){
-    var avg1 = (score1 + score2 + score3)/3;
-    return avg1;
+    var avg = (score1 + score2 + score3)/3;
+    return avg;
 }
-function showGrade(avgScore){
-    if(avgScore >80){
+function showGrade(avg){
+    if(avg >80){
         console.log("Grade A");
-    }else if(avgScore > 70){
+    }else if(avg > 70){
         console.log("Grade B");
-    }else if(avgScore > 60){
+    }else if(avg > 60){
         console.log("Grade C");
     }else{
         console.log("Fail");
@@ -31,3 +40,4 @@ function findGrade(sc1,sc2,sc3){
 findGrade(90,85,70);
 console.log(getAvg(80,65,70));
 showGrade(68);
+*/
